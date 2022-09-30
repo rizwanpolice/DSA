@@ -2,7 +2,6 @@ package Arrays.MixedProblems;
 
 import java.util.*;
 
-
 /*
 
 You are given an integer array 'ARR' of size 'N' and an integer 'S'.
@@ -15,9 +14,11 @@ In case if two pairs have the same first value, the pair with a smaller second v
 
 Problem link: https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118820/offering/1381883?leftPanelTab=0
 
+Sol link: youtube.com/watch?v=s1xA_K1JReo
 */
 
-public class PairSum1 {
+public class PairSum2 {
+
     public static int[][] pairSum(int[] arr, int s) {
         // We can use the Arrays.sort() method to sort our input array first
         // Time complexity of Arrays.sort() is O(nlogn)
@@ -26,28 +27,22 @@ public class PairSum1 {
 
         Arrays.sort(arr);
         int n= arr.length;
-        int p1,p2;
+        int p1,p2,left=0,right=n-1;
 
         List<List<Integer>> ans = new ArrayList<>();
 
-        for(int i=0;i<n-1 ;i++){
-            for(int j=i+1;i<n;j++){
-                if(i+j == s){
-                    List<Integer> li = new ArrayList<>();
-                    if(i<=j){
-                        p1=i;
-                        p2=j;
-                    }else{
-                        p1=j;
-                        p2=i;
-                    }
-
-                    li.add(p1);
-                    li.add(p2);
-                    ans.add(li);
-                }
+        while (left<right){
+            if(arr[left] + arr[right] > s){
+                right--;
+            }else if(arr[left] + arr[right] < s){
+                left++;
+            }else{
+                List<Integer> li = new ArrayList<>();
+                li.add(arr[left]);
+                li.add(arr[right]);
+                ans.add(li);
+                left++;
             }
-
         }
 
         int[][] finalAns = new int[ans.size()][2];
