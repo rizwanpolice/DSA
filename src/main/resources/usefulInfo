@@ -1,0 +1,9 @@
+https://www.piratekingdom.com/leetcode/cheat-sheet
+
+-----------------------------------------------------------------------
+In order to assign a maximum value of an integer in java, use below
+
+int max = Integer.MAX_VALUE;
+int min = Integer.MIN_VALUE;
+
+-----------------------------------------------------------------------
