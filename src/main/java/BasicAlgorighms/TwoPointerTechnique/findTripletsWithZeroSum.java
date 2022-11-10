@@ -15,7 +15,7 @@ Problem link: https://www.codingninjas.com/codestudio/guided-paths/data-structur
 Solution link:  https://www.youtube.com/watch?v=kUJvbYsYwQk
 https://www.youtube.com/watch?v=EqHVjoqrGEo
  */
-public class findTriplets {
+public class findTripletsWithZeroSum {
     public static ArrayList<ArrayList<Integer>> findTriplets(ArrayList<Integer> arr, int n) {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         int[] arr1 = new int[arr.size()];
