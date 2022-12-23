@@ -16,8 +16,16 @@ map.remove(key);
 
 Generic rules to identify sliding window problem
 
-1. An Array or Strig should be given
+1. An Array or String should be given
 2. Ask about sub array or sub string
 3. Given K (for a fixed length sliding window problem)
+
+-----------------------------------------------------------------------
+
+To find the power of a number, use below
+
+Math.pow(2,3);
+
+The above line will calculate 2 power three
 
 -----------------------------------------------------------------------
