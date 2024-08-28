@@ -1,4 +1,4 @@
-package usefulInfo;
+package CommonProblems;
 
 /*
 This program shows the logic how to reverse a number

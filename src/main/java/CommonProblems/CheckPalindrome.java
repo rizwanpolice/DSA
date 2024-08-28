@@ -1,4 +1,4 @@
-package usefulInfo;
+package CommonProblems;
 
 public class CheckPalindrome {
     public static void main(String[] args) {

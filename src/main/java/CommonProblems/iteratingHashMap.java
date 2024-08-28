@@ -1,4 +1,4 @@
-package usefulInfo;
+package CommonProblems;
 
 import java.util.HashMap;
 import java.util.Iterator;
