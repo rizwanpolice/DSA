@@ -2,6 +2,11 @@ package LinkedList;
 
 /*
 
+This class has multiple things
+1. Converting an array to linked list
+2. finding length of the linked list
+3. finding an element in linked list
+
 https://www.youtube.com/watch?v=Nq7ok-OyEpg&t=1759s
  */
 public class ConvertArrayToLL {
@@ -16,6 +21,8 @@ public class ConvertArrayToLL {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
+
+        System.out.println("The length of linked list is: " + findLengthLL(head) );
     }
 
     private static Node convertToLL(int[] arr){
@@ -29,6 +36,30 @@ public class ConvertArrayToLL {
         }
 
         return head;
+    }
+
+    private static int findLengthLL(Node head){
+        Node temp = head;
+        int count =0;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+
+        return count;
+    }
+
+    private static Boolean findElement(Node head, int target){
+        Node temp = head;
+
+        while(temp != null){
+            if(temp.data == target){
+                return true;
+            }
+            temp = temp.next;
+        }
+
+        return false;
     }
 
 }
