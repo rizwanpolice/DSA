@@ -1,9 +1,12 @@
-package LinkedList;
+package LinkedList.LL;
 
 /*
 
 https://www.youtube.com/watch?v=VaECK03Dz-g
  */
+
+import LinkedList.LL.ConvertArrayToLL;
+import LinkedList.LL.Node;
 
 public class DeletionInLL {
 
