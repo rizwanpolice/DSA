@@ -18,6 +18,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
         int n=s.length();
         HashSet<Character> set=new HashSet<>();
 
+        //Here the logic is move the pointer to the right unless you encounter a duplicate element
+        //Once you encounter a duplicate element, then remove the first character put from set and increment i
         while(j<n){
             if(!set.contains(s.charAt(j))){
                 set.add(s.charAt(j));

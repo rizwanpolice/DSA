@@ -31,6 +31,7 @@ public class PairSum2 {
 
         List<List<Integer>> ans = new ArrayList<>();
 
+        // this logic we use when we have to find all the pairs
         while (left<right){
             if(arr[left] + arr[right] > s){
                 right--;

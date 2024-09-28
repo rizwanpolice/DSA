@@ -16,7 +16,7 @@ public class LongestMountain {
         for(int i=1;i<n-1;i++){
             /*
             The approach here is to find the peak element and then traverse towards left and right until
-            out mountain conditions are met and find the subarray length
+            our mountain conditions are met and find the subarray length
             */
             int currLength=0;
             if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
