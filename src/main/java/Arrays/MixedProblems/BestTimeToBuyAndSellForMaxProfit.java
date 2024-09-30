@@ -7,6 +7,8 @@ when at most one transaction is allowed.
 
 Note: Stock must be bought before being sold.
 
+At most one transaction is allowed.
+
 
 Problem link: https://www.geeksforgeeks.org/best-time-to-buy-and-sell-stock/?ref=ml_lbp
 

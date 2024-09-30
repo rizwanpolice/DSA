@@ -22,6 +22,8 @@ public class findTripletsWithZeroSum {
         for(int i=0;i<arr.size();i++){
             arr1[i]=arr.get(i);
         }
+
+        // We are sorting this to apply the two pointer technique to find remaining two numbers
         Arrays.sort(arr1);
 
         for(int i=0;i<n;i++){
