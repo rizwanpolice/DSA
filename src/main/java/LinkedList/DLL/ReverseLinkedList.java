@@ -5,6 +5,7 @@ import java.util.Stack;
 
 /*
 
+https://www.youtube.com/watch?v=u3WUW2qe6ww&list=PLgUwDviBIf0rAuz8tVcM0AymmhTRsfaLU&index=5
 
  */
 public class ReverseLinkedList {

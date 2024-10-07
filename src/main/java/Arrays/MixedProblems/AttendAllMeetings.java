@@ -15,6 +15,7 @@ public class AttendAllMeetings {
     }
 
     public boolean canAttendMeetings(int[][] intervals) {
+
         Arrays.sort(intervals, new Comparator<int[]>() {
             public int compare(int[] i1, int[] i2) {
                 return i1[0] - i2[0];

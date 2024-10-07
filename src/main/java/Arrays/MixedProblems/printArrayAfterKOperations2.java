@@ -49,6 +49,7 @@ public class printArrayAfterKOperations2 {
                 arr.set(i, max - arr.get(i));
             }
 
+            //we have to reset max here again, otherwise the max value will be still max
             max = Integer.MIN_VALUE;
 
             for(int i=0;i<arr.size();i++){
