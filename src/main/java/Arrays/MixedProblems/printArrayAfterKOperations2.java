@@ -26,7 +26,7 @@ public class printArrayAfterKOperations2 {
         if(k==0)
             return arr;
         // If you observe after every 2 iterations, the order and values of modified array
-        // are same, so implemented this logic to modify atmax 2 times and return the array
+        // are same, so implemented this logic to modify at max 2 times and return the array
         if(k%2==1){
             for(int i=0;i<arr.size();i++){
                 if(max<arr.get(i)){

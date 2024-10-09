@@ -13,8 +13,7 @@ Solution: Look through solutions in discuss section
  */
 public class LongestSwitchingSubArray {
     public static int switchingSubarray(int[] arr, int n) {
-
-        HashSet<Integer> set = new HashSet<>();
+        ;
         int i=0,j=0,max=0;
         while(j<n){
 

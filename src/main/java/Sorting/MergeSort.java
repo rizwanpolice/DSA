@@ -51,7 +51,7 @@ public class MergeSort {
             right++;
         }
 
-        // transfering all elements from temporary to arr
+        // transferring all elements from temporary to arr
         for (int i = low; i <= high; i++) {
             arr[i] = temp.get(i - low);
         }

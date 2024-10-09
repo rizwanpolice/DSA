@@ -31,7 +31,7 @@ public class PairSum1 {
         List<List<Integer>> ans = new ArrayList<>();
 
         for(int i=0;i<n-1 ;i++){
-            for(int j=i+1;i<n;j++){
+            for(int j=i+1;j<n;j++){
                 if(i+j == s){
                     List<Integer> li = new ArrayList<>();
                     if(i<=j){
