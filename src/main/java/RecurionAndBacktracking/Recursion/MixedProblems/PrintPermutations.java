@@ -28,7 +28,7 @@ public class PrintPermutations {
     public static void solvePerm(String s, List<String> ans,String ds, boolean[] freq ){
 
         if(ds.length() == s.length()){
-            ans.add(ds);
+            ans.add(new String(ds));
             return;
         }
 

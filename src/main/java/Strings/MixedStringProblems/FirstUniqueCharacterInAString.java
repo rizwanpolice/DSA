@@ -16,7 +16,7 @@ public class FirstUniqueCharacterInAString {
     public static char firstNonRepeating(String str) {
         char ans = '#';
 
-        //by using hashmap, we have O(n) space complexity
+        // by using hashmap, we have O(n) space complexity
         // inorder to reduce space complexity, we can use int array with 256 length and perform operation.
         HashMap<Character,Integer> map = new HashMap<>();
         for(int i=0;i<str.length();i++){
