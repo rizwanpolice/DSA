@@ -45,7 +45,7 @@ public class DeletionInDLL {
     private static Node deleteHead(Node head){
 
         // If LL is empty or has only one element
-        if (head ==null || head.next == null)
+        if (head == null || head.next == null)
             return null;
 
         Node prev = head;
